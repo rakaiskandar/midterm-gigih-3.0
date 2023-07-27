@@ -12,19 +12,18 @@ This repository project made for fulfillment task midterm GIGIH 3.0.
 - Post comments by video id
 - Search video by title
 
-
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+git clone https://link-to-project
 ```
 
 Go to the project directory
 
 ```bash
-  cd midterm-gigih-3.0
+cd midterm-gigih-3.0
 ```
 
 Create `.env` file and insert
@@ -36,7 +35,7 @@ DB_URL=YOUR_MONGODB_URL
 Install dependencies
 
 ```bash
-  npm install
+npm install
 ```
 
 Start the server

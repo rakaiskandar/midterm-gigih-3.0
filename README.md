@@ -17,7 +17,7 @@ This repository project made for fulfillment task midterm GIGIH 3.0.
 Clone the project
 
 ```bash
-git clone https://link-to-project
+git clone https://github.com/rakaiskandar/midterm-gigih-3.0.git
 ```
 
 Go to the project directory
@@ -41,7 +41,7 @@ npm install
 Start the server
 
 ```bash
-  npm start
+npm start
 ```
 
 *notes: database will be migrated automatically* 
@@ -95,7 +95,7 @@ Schema database that used for backend service
 | _POST_ | `/api/comments/:id` | _Post a comment by video id_                    | _All users_ |
 
 ## API Request and Response
-An example list API request and response you can see in [API Example]("https://gist.github.com/rakaiskandar/99528f041c7d02f8e19af892daef8c76")
+An example list API request and response you can see in https://gist.github.com/rakaiskandar/99528f041c7d02f8e19af892daef8c76
 
 
 

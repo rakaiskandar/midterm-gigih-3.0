@@ -16,7 +16,7 @@ const get_video = async (req, res) => {
         })
     } catch (e) {
         return api_response(500, req, res, {
-            error: e.message
+            error: "Internal Server Error"
         })
     }
 }
@@ -42,7 +42,7 @@ const search_video = async (req, res) => {
         })
     } catch (e) {
         return api_response(500, req, res, {
-            error: e.message
+            error: "Internal Server Error"
         })
     }
 }

@@ -13,7 +13,7 @@ const get_comment = async (req, res) => {
 
         if(!comment.length){
             return api_response(404, req, res ,{
-                error: "Comments doesn't exist in this video",
+                error: "Comment doesn't exist in this video",
             });
         }
 
@@ -23,7 +23,7 @@ const get_comment = async (req, res) => {
 
     } catch (e) {
         return api_response(500, req, res, {
-            error: e.message
+            error: "Internal Server Error"
         })
     }
 }
@@ -59,7 +59,7 @@ const post_comment = async (req, res) => {
         });
     } catch (e) {
         return api_response(500, req, res, {
-            error: e.message
+            error: "Internal Server Error"
         })
     }
 }

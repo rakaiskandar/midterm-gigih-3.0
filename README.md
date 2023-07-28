@@ -129,12 +129,12 @@ Flow A:
 
 | METHOD | ROUTE                | FUNCTIONALITY                 | ACCESS      |
 | ------ | -------------------- | ----------------------------- | ----------- |
-| _GET_  | `/api`               | _Get API Service_             | _All users_ |
+| _GET_  | `/api`               | _Starting API Service_        | _All users_ |
 | _GET_  | `/api/videos`        | _Gets a list all video_       | _All users_ |
 | _GET_  | `/api/videos/search` | _Search video by query_       | _All users_ |
 | _GET_  | `/api/products`      | _Gets a list all products_    | _All users_ |
-| _GET_  | `/api/products/:id`  | _Gets a products by video id_ | _All users_ |
-| _GET_  | `/api/comments/:id`  | _Gets a comment by video id_  | _All users_ |
+| _GET_  | `/api/products/:id`  | _Get a products by video id_  | _All users_ |
+| _GET_  | `/api/comments/:id`  | _Get a comment by video id_   | _All users_ |
 | _POST_ | `/api/comments/:id`  | _Post a comment by video id_  | _All users_ |
 
 ## API Request and Response

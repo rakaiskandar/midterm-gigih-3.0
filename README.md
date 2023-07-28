@@ -9,6 +9,7 @@ This repository project made for fulfillment task midterm GIGIH 3.0.
 ## Features
 
 - Get all video
+- Get all products
 - Get products by video id
 - Get comments by video id
 - Post comments by video id
@@ -121,7 +122,7 @@ Folder structure that used for backend service:
 - `.env: environtment variable for development`
 - `index.js: entry point for app`
 
-Flow API:
+Flow A:
 
 ![alt text](./public/flow-api.png)
 ## API Endpoint
@@ -129,9 +130,10 @@ Flow API:
 | METHOD | ROUTE                | FUNCTIONALITY                 | ACCESS      |
 | ------ | -------------------- | ----------------------------- | ----------- |
 | _GET_  | `/api`               | _Get API Service_             | _All users_ |
-| _GET_  | `/api/videos`        | _Gets a list of all video_    | _All users_ |
+| _GET_  | `/api/videos`        | _Gets a list all video_       | _All users_ |
 | _GET_  | `/api/videos/search` | _Search video by query_       | _All users_ |
-| _GET_  | `/api/products/:id`  | Gets a products by video id\_ | _All users_ |
+| _GET_  | `/api/products`      | _Gets a list all products_    | _All users_ |
+| _GET_  | `/api/products/:id`  | _Gets a products by video id_ | _All users_ |
 | _GET_  | `/api/comments/:id`  | _Gets a comment by video id_  | _All users_ |
 | _POST_ | `/api/comments/:id`  | _Post a comment by video id_  | _All users_ |
 

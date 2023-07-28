@@ -1,6 +1,6 @@
-const Product = require('../../databases/models/product.model');
-const Video = require('../../databases/models/video.model');
-const { api_response } = require('../../utils/response.util');
+const Product = require('../databases/models/product.model');
+const Video = require('../databases/models/video.model');
+const { api_response } = require('../utils/response.util');
 
 const get_product = async (req, res) => {
     const id = req.params.id;

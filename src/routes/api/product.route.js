@@ -1,5 +1,5 @@
-const { api } = require('../../../configs/prefix.config');
-const { get_product } = require('../../../controllers/user/product.controller');
+const { api } = require('../../configs/prefix.config');
+const { get_product } = require('../../controllers/product.controller');
 
 const express = require('express');
 

@@ -1,5 +1,5 @@
-const { get_comment, post_comment } = require('../../../controllers/user/comment.controller');
-const { api } = require('../../../configs/prefix.config');
+const { get_comment, post_comment } = require('../../controllers/comment.controller');
+const { api } = require('../../configs/prefix.config');
 
 const express = require('express');
 

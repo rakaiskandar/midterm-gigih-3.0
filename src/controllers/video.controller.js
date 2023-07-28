@@ -1,5 +1,5 @@
-const Video = require('../../databases/models/video.model');
-const { api_response } = require('../../utils/response.util');
+const Video = require('../databases/models/video.model');
+const { api_response } = require('../utils/response.util');
 
 const get_video = async (req, res) => {
     try {

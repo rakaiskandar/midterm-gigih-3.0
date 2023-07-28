@@ -1,5 +1,5 @@
-const { api } = require('../../../configs/prefix.config');
-const { get_video, search_video } = require('../../../controllers/user/video.controller');
+const { api } = require('../../configs/prefix.config');
+const { get_video, search_video } = require('../../controllers/video.controller');
 
 const express = require('express');
 

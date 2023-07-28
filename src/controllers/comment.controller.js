@@ -1,7 +1,7 @@
-const Comment = require('../../databases/models/comment.model');
-const Video = require('../../databases/models/video.model');
-const { generateRandomInt } = require('../../utils/general.util');
-const { api_response } = require('../../utils/response.util');
+const Comment = require('../databases/models/comment.model');
+const Video = require('../databases/models/video.model');
+const { generateRandomInt } = require('../utils/general.util');
+const { api_response } = require('../utils/response.util');
 
 const get_comment = async (req, res) => {
     const id = req.params.id;

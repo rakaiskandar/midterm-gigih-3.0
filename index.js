@@ -1,8 +1,8 @@
 // Route
 const index_route = require('./src/routes/api/index.route');
-const video_route = require('./src/routes/api/user/video.route');
-const product_route = require('./src/routes/api/user/product.route');
-const comment_route = require('./src/routes/api/user/comment.route');
+const video_route = require('./src/routes/api/video.route');
+const product_route = require('./src/routes/api/product.route');
+const comment_route = require('./src/routes/api/comment.route');
 const notfound_route = require('./src/routes/api/notfound.route');
 
 // Database config

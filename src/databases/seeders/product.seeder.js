@@ -74,6 +74,41 @@ const init = async () => {
             title: "Adidas Pria Pendek Putih - CLASSIC PUTIH, L",
             price: 115000
         },
+        {
+            productId: `P-${generateRandomInt()}`,
+            videoId: "NK1_EjVjxp0",
+            url: "https://www.tokopedia.com/trueogkicks/nike-air-force-1-low-triple-black-authentic-gs-38-63de6",
+            title: "Nike Air Force 1 Low Black",
+            price: 1699000
+        },
+        {
+            productId: `P-${generateRandomInt()}`,
+            videoId: "TVFwAaWND48",
+            url: "https://www.tokopedia.com/onlyonecell/hp-oppo-a54-ram-6gb-128gb-5000mah-smartphone-garansi-toko-1-tahun-biru",
+            title: "Oppo A54 Ram 6GB/128GB 5000mAh Smartphone Garansi Toko 1 Tahun - Biru",
+            price: 879000
+        },
+        {
+            productId: `P-${generateRandomInt()}`,
+            videoId: "BwL3vWmLRjE",
+            url: "https://www.tokopedia.com/vivo/vivo-iqoo-z7-12-256-sdm-782g-120w-flashcharge-5000mah-64mp-ois-matrix-blue-e2177",
+            title: "vivo iQOO Z7 (12/256) - SDM 782G, 120W FlashCharge + 5000mAh, 64MP OIS - Matrix Blue",
+            price: 4899000
+        },
+        {
+            productId: `P-${generateRandomInt()}`,
+            videoId: "Ytfa4tDrWt4",
+            url: "https://www.tokopedia.com/barnaclestoree/realme-9-pro-plus-8-256-gb",
+            title: "Realme 9 Pro Plus",
+            price: 4220000
+        },
+        {
+            productId: `P-${generateRandomInt()}`,
+            videoId: "TqeHDDohDqA",
+            url: "https://www.tokopedia.com/presidenkaosmurah/tshirt-baju-kaos-distro-uniqlo-logo-kaos-distro-pria-wanita-m",
+            title: "Uniqlo Tshirt Unisex",
+            price: 60750
+        }
     ]
 
     const promises = [];

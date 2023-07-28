@@ -27,7 +27,32 @@ const init = async () => {
             videoId: "P1zOY2wjOQQ",
             videoThumb: "https://img.youtube.com/vi/P1zOY2wjOQQ/0.jpg",
             title: "Running Needs Nothing Need You | adidas"
-        }
+        },
+        {
+            videoId: "NK1_EjVjxp0",
+            videoThumb: "https://img.youtube.com/vi/NK1_EjVjxp0/0.jpg",
+            title: "No Excuses | Nike "
+        },
+        {
+            videoId: "TVFwAaWND48",
+            videoThumb: "https://img.youtube.com/vi/TVFwAaWND48/0.jpg",
+            title: "OPPO Needs Joy"
+        },
+        {
+            videoId: "BwL3vWmLRjE",
+            videoThumb: "https://img.youtube.com/vi/BwL3vWmLRjE/0.jpg",
+            title: "Vivo | Connections Should Have No Limit"
+        },
+        {
+            videoId: "Ytfa4tDrWt4",
+            videoThumb: "https://img.youtube.com/vi/Ytfa4tDrWt4/0.jpg",
+            title: "Capture the Light| realme 9 Pro Series"
+        },
+        {
+            videoId: "TqeHDDohDqA",
+            videoThumb: "https://img.youtube.com/vi/TqeHDDohDqA/0.jpg",
+            title: "UNIQLO | Rayakan Dengan Baju Baru"
+        },
     ]
 
     const promises = [];

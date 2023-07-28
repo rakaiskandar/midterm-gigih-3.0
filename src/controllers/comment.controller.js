@@ -7,15 +7,11 @@ const get_comment = async (req, res) => {
     const id = req.params.id;
 
     try {
-        const videos = await Video.find({
-            videoId: { $regex: `${id}`, $options: "i"}
-        })
-
         const comment = await Comment.find({
             videoId: { $regex: `${id}`, $options: "i" }
         })
 
-        if(!videos.length){
+        if(!comment.length){
             return api_response(404, req, res ,{
                 error: "Comments doesn't exist in this video",
             });
@@ -51,8 +47,8 @@ const post_comment = async (req, res) => {
         );
         
         if(!video.length){
-            return api_response(204, req, res, {
-                error: "Comments doesn't exist",
+            return api_response(404, req, res, {
+                error: "Video doesn't exist",
             });   
         }
 

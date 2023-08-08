@@ -35,6 +35,12 @@ const search_video = async (req, res) => {
             })
         }
 
+        if(query === ""){
+            return api_response(400, req, res, {
+                error: "Search with other keyword!"
+            })
+        }
+
         return api_response(200, req, res, {
             count: videos.length,
             query: query,

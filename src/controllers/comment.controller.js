@@ -12,8 +12,8 @@ const get_comment = async (req, res) => {
         })
 
         if(!comment.length){
-            return api_response(404, req, res ,{
-                error: "Comment doesn't exist in this video",
+            return api_response(204, req, res ,{
+                message: "Comment doesn't exist in this video",
             });
         }
 
@@ -30,24 +30,22 @@ const get_comment = async (req, res) => {
 
 const post_comment = async (req, res) => {
     const id = req.params.id;
-    const { username, comments } = req.body;
-
+    const { comment, username } = req.body;
     try {
         const video = await Video.find({
             videoId: { $regex: `${id}`, $options: "i"}
         })
 
         const newComment = new Comment({
-                commentId: `C-${generateRandomInt()}`,
-                videoId: id,
-                username: username,
-                comment: comments,
-                date: new Date()
-            }
-        );
+            commentId: `C-${generateRandomInt()}`,
+            videoId: id,
+            username: username,
+            comment: comment,
+            date: new Date().toISOString()
+        });
         
         if(!video.length){
-            return api_response(404, req, res, {
+            return api_response(204, req, res, {
                 error: "Video doesn't exist",
             });   
         }

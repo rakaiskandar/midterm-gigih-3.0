@@ -6,8 +6,8 @@ const get_product = async (req, res) => {
         const product = await Product.find();
 
         if (!product.length) {
-            return api_response(404, req, res, {
-                error: "Products doesn't exist"
+            return api_response(204, req, res, {
+                message: "Products doesn't exist"
             })
         }
 
@@ -30,7 +30,7 @@ const get_product_id = async (req, res) => {
         }).limit(5);
 
         if(!product.length){
-            return api_response(404, req, res, {
+            return api_response(204, req, res, {
                 message: "Product doesn't exist"
             })
         }

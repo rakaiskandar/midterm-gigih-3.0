@@ -6,13 +6,13 @@ const get_video = async (req, res) => {
         const videos = await Video.find();
 
         if (!videos.length) {
-            return api_response(404, req, res, {
-                error: "Videos doesn't exist"
+            return api_response(204, req, res, {
+                message: "Videos doesn't exist"
             })    
         }
 
         return api_response(200, req, res, {
-            video: videos
+            videos: videos
         })
     } catch (e) {
         return api_response(500, req, res, {
@@ -30,14 +30,14 @@ const search_video = async (req, res) => {
         })
 
         if(!videos.length){
-            return api_response(404, req, res, {
-                error: "Search with other keyword!"
+            return api_response(204, req, res, {
+                message: "Videos Not Found"
             })
         }
 
         if(query === ""){
-            return api_response(400, req, res, {
-                error: "Search with other keyword!"
+            return api_response(200, req, res, {
+                message: "Search with other keyword!"
             })
         }
 

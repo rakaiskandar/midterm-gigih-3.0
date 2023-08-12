@@ -21,6 +21,30 @@ const get_video = async (req, res) => {
     }
 }
 
+const get_video_id = async (req, res) => {
+    const id = req.params.id;
+
+    try {
+        const videos = await Video.find({
+            videoId: { $regex: `${id}`, $options: "i" }
+        });
+
+        if (!videos.length) {
+            return api_response(204, req, res, {
+                message: "Videos Not Found"
+            })
+        }
+
+        return api_response(200, req, res, {
+            videos: videos
+        })
+    } catch (e) {
+        return api_response(500, req, res, {
+            error: "Internal Server Error"
+        })
+    }
+}
+
 const search_video = async (req, res) => {
     const query = req.query.q;
 
@@ -54,5 +78,5 @@ const search_video = async (req, res) => {
 }
 
 module.exports = {
-    get_video, search_video
+    get_video, get_video_id, search_video
 }

@@ -9,7 +9,7 @@ const get_comment = async (req, res) => {
     try {
         const comment = await Comment.find({
             videoId: { $regex: `${id}`, $options: "i" }
-        })
+        }).sort({ date: -1 });
 
         if(!comment.length){
             return api_response(204, req, res ,{

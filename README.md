@@ -1,4 +1,4 @@
-## Tokopedia Play Clone API Midterm GIGIH 3.0
+## Tokopedia Play Clone API Midterm Generasi GIGIH 3.0
 
 Tokopedia Play Clone Backend API Service use Express and MongoDB provide http request and response also store data to MongoDB.
 

@@ -9,12 +9,12 @@ router.get(`${api}/videos`, (req, res) => {
     get_video(req, res);
 })
 
-router.get(`${api}/videos/:id`, (req, res) => {
-    get_video_id(req, res);
-})
-
 router.get(`${api}/videos/search`, (req, res) => {
     search_video(req, res);
+})
+
+router.get(`${api}/videos/:id`, (req, res) => {
+    get_video_id(req, res);
 })
 
 module.exports = router;

@@ -9,6 +9,7 @@ This repository project made for fulfillment task midterm GIGIH 3.0.
 ## Features
 
 - Get all video
+- Get video by video id
 - Get all products
 - Get products by video id
 - Get comments by video id
@@ -131,6 +132,7 @@ Flow A:
 | ------ | -------------------- | ----------------------------- | ----------- |
 | _GET_  | `/api`               | _Starting API Service_        | _All users_ |
 | _GET_  | `/api/videos`        | _Gets a list all video_       | _All users_ |
+| _GET_  | `/api/videos/:id`    | _Gets a video by video id_    | _All users_ |
 | _GET_  | `/api/videos/search` | _Search video by query_       | _All users_ |
 | _GET_  | `/api/products`      | _Gets a list all products_    | _All users_ |
 | _GET_  | `/api/products/:id`  | _Get a products by video id_  | _All users_ |

@@ -117,13 +117,13 @@ Folder structure that used for backend service:
 -` controllers: handle request and response`
 - `databases: root folder for data access layer`
 - `models: provide schema data for database`  
-- `seeders: provide data migartion automatically`
+- `seeders: provide data migration automatically`
 - `routes: handle endpoint for controllers`
 - `utils: utility function that used for needs`
-- `.env: environtment variable for development`
+- `.env: environment variable for development`
 - `index.js: entry point for app`
 
-Flow A:
+Flow Api:
 
 ![alt text](./public/flow-api.png)
 ## API Endpoint

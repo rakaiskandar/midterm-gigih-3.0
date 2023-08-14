@@ -20,6 +20,13 @@ const init = async () => {
         },
         {
             productId: `P-${generateRandomInt()}`,
+            videoId: "xr3xsigGZv4",
+            url: "https://www.tokopedia.com/gunzfam/nescafe-latte-500gr-by-nestle-professional-termurah",
+            title: "Nescafe Latte 500gr by Nestle Professional TERMURAH !",
+            price: 46000
+        },
+        {
+            productId: `P-${generateRandomInt()}`,
             videoId: "-vLbY1rGMSk",
             url: "https://www.tokopedia.com/erigo/outerwear-unisex-erigo-coach-jacket-idaina-kaeru-taslan-black-s",
             title: "Outerwear Unisex Erigo Coach Jacket Idaina Kaeru Taslan Black - S",
@@ -31,6 +38,13 @@ const init = async () => {
             url: "https://www.tokopedia.com/erigo/outerwear-unisex-erigo-chore-jacket-vasyl-black-s",
             title: "Outerwear Unisex Erigo Chore Jacket Vasyl Black - S",
             price: 450000
+        },
+        {   
+            productId: `P-${generateRandomInt()}`,
+            videoId: "-vLbY1rGMSk",
+            url: "https://www.tokopedia.com/erigo/outerwear-unisex-erigo-coach-jacket-fujinkai-taslan-black-l",
+            title: "Outerwear Unisex Erigo Coach Jacket Fujinkai Taslan Black - L",
+            price: 155000
         },
         {
             productId: `P-${generateRandomInt()}`,
@@ -81,6 +95,13 @@ const init = async () => {
             title: "Nike Air Force 1 Low Black",
             price: 1699000
         },
+        {   
+            productId: `P-${generateRandomInt()}`,
+            videoId: "NK1_EjVjxp0",
+            url: "https://www.tokopedia.com/trueogkicks/sneakers-air-jordan-1-low-light-smoke-grey-100-original-45",
+            title: "Sneakers Air Jordan 1 Low Light Smoke Grey 100% Original - 45",
+            price: 2899000
+        },
         {
             productId: `P-${generateRandomInt()}`,
             videoId: "TVFwAaWND48",
@@ -97,10 +118,24 @@ const init = async () => {
         },
         {
             productId: `P-${generateRandomInt()}`,
+            videoId: "BwL3vWmLRjE",
+            url: "https://www.tokopedia.com/vivo/vivo-y22-4-128-helio-g85-50mp-camera-splash-waterproof-starlit-blue-c65c1",
+            title: "vivo Y22 (4/128) - Helio G85, 50MP Camera, Splash Waterproof - Starlit Blue",
+            price: 2299000
+        },
+        {
+            productId: `P-${generateRandomInt()}`,
             videoId: "Ytfa4tDrWt4",
             url: "https://www.tokopedia.com/barnaclestoree/realme-9-pro-plus-8-256-gb",
             title: "Realme 9 Pro Plus",
             price: 4220000
+        },
+        {   
+            productId: `P-${generateRandomInt()}`,
+            videoId: "Ytfa4tDrWt4",
+            url: "https://www.tokopedia.com/realme/realme-11-pro-8-8gb-256gb-dimensity-7050-5g-100mp-ois-pro-camera-astral-black",
+            title: "realme 11 Pro 8+8GB*/256GB - Dimensity 7050 5G | 100MP OIS Pro Camera - Astral Black",
+            price: 5599000
         },
         {
             productId: `P-${generateRandomInt()}`,
@@ -108,6 +143,41 @@ const init = async () => {
             url: "https://www.tokopedia.com/presidenkaosmurah/tshirt-baju-kaos-distro-uniqlo-logo-kaos-distro-pria-wanita-m",
             title: "Uniqlo Tshirt Unisex",
             price: 60750
+        },
+        {
+            productId: `P-${generateRandomInt()}`,
+            videoId: "scEDHsr3APg",
+            url: "https://www.tokopedia.com/mrhanzo/lenovo-x1-extreme-core-i7-8750h-ram-32gb-nvidia-gtx-1050-ti-4gb-8gb-256gb-17e54",
+            title: "Lenovo X1 extreme core i7 8750H - RAM 32GB - NVIDIA GTX 1050 Ti 4GB - 8GB - 256GB",
+            price: 8075000
+        },
+        {
+            productId: `P-${generateRandomInt()}`,
+            videoId: "nZqwQCLYgjk",
+            url: "https://www.tokopedia.com/sevenstereo/legacy-eg100-eg-100-stratocaster-guitar-electric-sunburst-76bc3",
+            title: "Legacy EG100 EG-100 Stratocaster Guitar Electric - Sunburst",
+            price: 1590000
+        },
+        {
+            productId: `P-${generateRandomInt()}`,
+            videoId: "4-k6j9g5Hzk",
+            url: "https://www.tokopedia.com/onexindonesia/onex-gx6-premium-quality-kursi-gaming-chair-black",
+            title: "ONEX GX6 Premium Quality Kursi Gaming Chair - BLACK",
+            price: 2600000
+        },
+        {
+            productId: `P-${generateRandomInt()}`,
+            videoId: "QXjU9qTsYCc",
+            url: "https://www.tokopedia.com/xiaomi-indonesia/mi-monitor-gaming-curved-34-inch-144hz-wqhd-3440-1440-garansi-resmi-paket-instant",
+            title: "Mi Monitor Gaming Curved 34 Inch 144Hz WQHD 3440 * 1440 - Garansi Resmi, Paket Instant",
+            price: 5445000
+        },
+        {
+            productId: `P-${generateRandomInt()}`,
+            videoId: "sW9npZVpiMI",
+            url: "hhttps://www.tokopedia.com/nyk-official/keyboard-gaming-61-wired-membrane-nyk-nemesis-k-06-eris-with-holder-hitam",
+            title: "Keyboard Gaming 61% Wired Membrane NYK Nemesis K-06 Eris With Holder - Hitam",
+            price: 130000
         }
     ]
 

@@ -53,6 +53,31 @@ const init = async () => {
             videoThumb: "https://img.youtube.com/vi/TqeHDDohDqA/0.jpg",
             title: "UNIQLO | Rayakan Dengan Baju Baru"
         },
+        {
+            videoId: "scEDHsr3APg",
+            videoThumb: "https://img.youtube.com/vi/scEDHsr3APg/0.jpg",
+            title: "Devops CI/CD Explained"
+        },
+        {
+            videoId: "nZqwQCLYgjk",
+            videoThumb: "https://img.youtube.com/vi/nZqwQCLYgjk/0.jpg",
+            title: "wave to earth - season"
+        },
+        {
+            videoId: "4-k6j9g5Hzk",
+            videoThumb: "https://img.youtube.com/vi/4-k6j9g5Hzk/0.jpg",
+            title: "How Stardew Valley Was Made by Only One Person"
+        },
+        {
+            videoId: "QXjU9qTsYCc",
+            videoThumb: "https://img.youtube.com/vi/QXjU9qTsYCc/0.jpg",
+            title: "How do computers read code?"
+        },
+        {
+            videoId: "sW9npZVpiMI",
+            videoThumb: "https://img.youtube.com/vi/sW9npZVpiMI/0.jpg",
+            title: "Why You Need Math for Prorammings?"
+        }
     ]
 
     const promises = [];

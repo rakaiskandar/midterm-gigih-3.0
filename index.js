@@ -14,8 +14,9 @@ const express = require('express');
 const morgan = require('morgan');
 const cors = require('cors');
 const bodyParser = require('body-parser');
+const path = require("path");
 
-require('dotenv').config();
+require('dotenv').config({ path: path.resolve(__dirname, ".env")});
 
 const PORT = process.env.PORT || 8000;
 

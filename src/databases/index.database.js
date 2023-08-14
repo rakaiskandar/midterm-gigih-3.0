@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 const mongoose = require('mongoose');
-const mongoString = process.env.DB_URL;
+const mongoString = process.env.MONGO_URL;
 
 const mongodb_connect = () => {
     mongoose.connect(mongoString, {

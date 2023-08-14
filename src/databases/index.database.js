@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 const mongoose = require('mongoose');
-const mongoString = process.env.VERCEL_MONGODB_URI;
+const mongoString = process.env.MONGODB_URI;
 
 const mongodb_connect = () => {
     mongoose.connect(mongoString, {

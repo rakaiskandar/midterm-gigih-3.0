@@ -142,3 +142,7 @@ Flow Api:
 ## API Request and Response
 
 An example list API request and response you can see in [API Example](https://gist.github.com/rakaiskandar/99528f041c7d02f8e19af892daef8c76)
+
+## Deployment
+Backend service has been deployed, you can access in https://midterm-gigih-3-0.vercel.app/api
+

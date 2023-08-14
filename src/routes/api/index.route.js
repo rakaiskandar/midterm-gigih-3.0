@@ -5,6 +5,12 @@ const express = require('express');
 
 const router = express.Router();
 
+router.get('/', (req, res) => {
+    return api_response(200, req, res, {
+        message: "ok"
+    })
+})
+
 router.get(`${api}`, (req, res) => {
     return api_response(200, req, res, {
         message: "Welcome to Tokopedia Play API Service"

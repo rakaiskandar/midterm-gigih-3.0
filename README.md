@@ -34,7 +34,7 @@ Create `.env` file and insert
 
 ```bash
 PORT=YOUR_PORT
-DB_URL=YOUR_MONGODB_URL
+MONGODB_URI=YOUR_MONGODB_URL
 ```
 
 Install dependencies
